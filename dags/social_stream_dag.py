@@ -12,6 +12,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 from pipelines.socialstream_pipeline import socialstream_pipeline
+from pipelines.aws_s3_pipeline import upload_s3_pipeline
+
 
 # Default arguments
 default_args = {
@@ -49,4 +51,12 @@ extract_reddit_task = PythonOperator(
     dag=dag,
 )
 
+# Task 2: Upload extracted data to AWS S3
+upload_to_s3_task = PythonOperator(
+    task_id='upload_to_s3',
+    python_callable=upload_s3_pipeline,
+    dag=dag,
+)
 
+ # task dependencies
+extract_reddit_task >> upload_to_s3_task
