@@ -1,0 +1,49 @@
+[2025-01-12T16:10:52.106+0000] {processor.py:157} INFO - Started process (PID=29) to work on /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:10:52.108+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/social_stream_dag.py for tasks to queue
+[2025-01-12T16:10:52.110+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:10:52.110+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:10:52.853+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_socialstream_pipeline']) retrieved from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:10:52.903+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:10:52.902+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-12T16:10:52.929+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:10:52.929+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_socialstream_pipeline to 2025-01-11T00:00:00+00:00, run_after=2025-01-12T00:00:00+00:00
+[2025-01-12T16:10:52.946+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/social_stream_dag.py took 0.844 seconds
+[2025-01-12T16:11:23.498+0000] {processor.py:157} INFO - Started process (PID=31) to work on /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:11:23.500+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/social_stream_dag.py for tasks to queue
+[2025-01-12T16:11:23.511+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:11:23.510+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:11:24.129+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_socialstream_pipeline']) retrieved from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:11:24.149+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:11:24.148+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-12T16:11:24.160+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:11:24.159+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_socialstream_pipeline to 2025-01-11T00:00:00+00:00, run_after=2025-01-12T00:00:00+00:00
+[2025-01-12T16:11:24.167+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/social_stream_dag.py took 0.677 seconds
+[2025-01-12T16:11:54.650+0000] {processor.py:157} INFO - Started process (PID=33) to work on /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:11:54.652+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/social_stream_dag.py for tasks to queue
+[2025-01-12T16:11:54.666+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:11:54.665+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:11:55.134+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_socialstream_pipeline']) retrieved from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:11:55.164+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:11:55.164+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-12T16:11:55.172+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:11:55.172+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_socialstream_pipeline to 2025-01-11T00:00:00+00:00, run_after=2025-01-12T00:00:00+00:00
+[2025-01-12T16:11:55.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/social_stream_dag.py took 0.552 seconds
+[2025-01-12T16:12:25.539+0000] {processor.py:157} INFO - Started process (PID=35) to work on /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:12:25.541+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/social_stream_dag.py for tasks to queue
+[2025-01-12T16:12:25.550+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:12:25.549+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:12:25.964+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_socialstream_pipeline']) retrieved from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:12:25.981+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:12:25.980+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-12T16:12:25.991+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:12:25.991+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_socialstream_pipeline to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T16:12:25.998+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/social_stream_dag.py took 0.466 seconds
+[2025-01-12T16:12:56.324+0000] {processor.py:157} INFO - Started process (PID=37) to work on /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:12:56.325+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/social_stream_dag.py for tasks to queue
+[2025-01-12T16:12:56.331+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:12:56.330+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:12:56.784+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_socialstream_pipeline']) retrieved from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:12:56.804+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:12:56.804+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-12T16:12:56.818+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:12:56.818+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_socialstream_pipeline to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T16:12:56.826+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/social_stream_dag.py took 0.512 seconds
+[2025-01-12T16:13:27.204+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:13:27.206+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/social_stream_dag.py for tasks to queue
+[2025-01-12T16:13:27.211+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:13:27.211+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:13:27.617+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_socialstream_pipeline']) retrieved from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:13:27.634+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:13:27.633+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-12T16:13:27.644+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:13:27.644+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_socialstream_pipeline to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T16:13:27.652+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/social_stream_dag.py took 0.455 seconds
+[2025-01-12T16:13:58.054+0000] {processor.py:157} INFO - Started process (PID=41) to work on /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:13:58.055+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/social_stream_dag.py for tasks to queue
+[2025-01-12T16:13:58.062+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:13:58.061+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:13:58.743+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_socialstream_pipeline']) retrieved from /opt/airflow/dags/social_stream_dag.py
+[2025-01-12T16:13:58.765+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:13:58.765+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-12T16:13:58.774+0000] {logging_mixin.py:151} INFO - [2025-01-12T16:13:58.774+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_socialstream_pipeline to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T16:13:58.781+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/social_stream_dag.py took 0.737 seconds

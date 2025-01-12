@@ -24,3 +24,7 @@
 [2025-01-10T06:26:38.172+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='atharvnanaware01@gmail.com' AIRFLOW_CTX_DAG_OWNER='Atharv-Nanaware' AIRFLOW_CTX_DAG_ID='etl_socialstream_pipeline' AIRFLOW_CTX_TASK_ID='extract_reddit_data' AIRFLOW_CTX_EXECUTION_DATE='2025-01-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-09T00:00:00+00:00'
 [2025-01-10T06:26:38.349+0000] {logging_mixin.py:151} WARNING - Version 7.7.1 of praw is outdated. Version 7.8.1 was released Friday October 25, 2024.
 [2025-01-10T06:26:38.352+0000] {logging_mixin.py:151} INFO - connected to reddit!
+[2025-01-10T06:27:47.165+0000] {python.py:194} INFO - Done. Returned value was: /opt/airflow/data/output/socialstream_20250110.csv
+[2025-01-10T06:27:47.197+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl_socialstream_pipeline, task_id=extract_reddit_data, execution_date=20250109T000000, start_date=20250110T062638, end_date=20250110T062747
+[2025-01-10T06:27:47.252+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-01-10T06:27:47.285+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
